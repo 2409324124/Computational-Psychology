@@ -1,9 +1,15 @@
 心理治疗文本分析：使用大语言模型评估心理距离
+
 📖 论文信息
+
 标题：Leveraging Large Language Models to Estimate Clinically Relevant Psychological Constructs in Psychotherapy Transcripts
+
 作者：Mostafa Abdou, Razia S. Sahi, Thomas D. Hull, Erik C. Nook, Nathaniel D. Daw
+
 期刊：Computational Psychiatry
+
 年份：2025
+
 DOI：https://doi.org/10.5334/cpsy.141
 
 🎯 核心发现
