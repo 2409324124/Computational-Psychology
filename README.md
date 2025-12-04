@@ -29,7 +29,7 @@ LIWC（传统）	词频统计（代词、时态比例）	简单、透明、可�
 LLM（新型）	基于上下文理解文本语义	语境敏感、可识别抽象概念、可定制任务	"黑箱"、需要大量计算资源
 🔧 核心代码实现
 1. 心理距离评估提示词
-python
+
 # 自我距离评估提示词（用于评估作者自身的心理距离）
 SELF_DISTANCE_PROMPT = """
 Below, we ask you to rate a passage of text according to how the language used reflects psychological distance.
