@@ -124,41 +124,6 @@ f(x) = max(0, x)
 | **缓解梯度消失** | 正区间的梯度恒为1，反向传播时梯度不会衰减 |
 | **稀疏激活** | 负值输出0，使得网络更稀疏、更高效 |
 
-### 🐍 Python 实现
-```python
-import numpy as np
-
-def relu(x):
-    """
-    ReLU 激活函数
-    
-    参数:
-        x: 输入值（可以是标量、向量或矩阵）
-    
-    返回:
-        ReLU激活后的结果
-    """
-    return np.maximum(0, x)
-
-# 示例用法
-if __name__ == "__main__":
-    # 测试数据
-    test_data = np.array([-3, -1, 0, 2, 5, -0.5])
-    
-    print("输入:", test_data)
-    print("ReLU输出:", relu(test_data))
-    print("负值变为0，正值保持不变")
-```
-
-### 🚀 高效向量化版本
-```python
-def relu_vectorized(x):
-    """向量化的ReLU实现，适合批量处理"""
-    return np.where(x > 0, x, 0)
-
-# 或者使用更简单的
-def relu_fast(x):
-    return x * (x > 0)
 ```
 
 ### 💡 为什么DeepSeek选择ReLU而不是Softmax？
