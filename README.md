@@ -66,7 +66,7 @@ Rank:
 
 
 
-### deepseek3.2DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models
+#### deepseek3.2DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models
  DeepSeek V3.2 正式版技术文档
  https://api-docs.deepseek.com/zh-cn/news/news251201
  
