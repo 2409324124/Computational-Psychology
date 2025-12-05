@@ -30,7 +30,7 @@ LLM（新型）	基于上下文理解文本语义	语境敏感、可识别抽象
 🔧 核心代码实现
 1. 心理距离评估提示词
 
-## 自我距离评估提示词（用于评估作者自身的心理距离）
+### 自我距离评估提示词（用于评估作者自身的心理距离）
 SELF_DISTANCE_PROMPT = """
 Below, we ask you to rate a passage of text according to how the language used reflects psychological distance.
 
@@ -47,7 +47,7 @@ Text: {text}
 Rank:
 """
 
-## 他人距离评估提示词（用于评估治疗师引导来访者抽离的程度）
+### 他人距离评估提示词（用于评估治疗师引导来访者抽离的程度）
 OTHER_DISTANCE_PROMPT = """
 Below, you will be presented with a text written by a psychotherapist as part of their treatment of a patient during therapy and you will be asked to rate it according to how the language used encourages the patient to employ psychological distancing.
 
